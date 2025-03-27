@@ -46,8 +46,11 @@ This project builds an ETL pipeline using Azure Data Factory (ADF), Databricks, 
  📌 Key Features:
  
 ✅ Incremental data loads using a watermark column 
-✅ SCD Type 1 (Upsert) for efficient data updates  
-✅ Optimized pipeline execution with parallel processing  
+
+✅ SCD Type 1 (Upsert) for efficient data updates
+
+✅ Optimized pipeline execution with parallel processing
+
 ✅ Error handling & schema evolution in Delta Tables 
 
 ---
