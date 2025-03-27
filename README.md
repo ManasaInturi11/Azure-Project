@@ -18,10 +18,14 @@ This project builds an ETL pipeline using Azure Data Factory (ADF), Databricks, 
 
  🔹 Pipeline Workflow
  
-1️⃣ Data Ingestion – Extracting data using **Azure Data Factory (ADF)  
+1️⃣ Data Ingestion – Extracting data using **Azure Data Factory (ADF)
+
 2️⃣ Staging – Copying raw data into a staging table
+
 3️⃣ Incremental Load Management – Handling changes using SCD Type 1 (Upsert) 
+
 4️⃣ Data Transformation – Processing data in Databricks using PySpark & Delta Lake 
+
 5️⃣ Final Storage – Organizing data into **fact & dimension tables** for analytics  
 
  🔹Medallion Architecture Implementation 
@@ -51,10 +55,14 @@ This project builds an ETL pipeline using Azure Data Factory (ADF), Databricks, 
  🏆 Challenges & Solutions  
 
 🔹Handling Incremental Loads
+
 ✔ Implemented a watermark table to track `last_load_timestamp`  
+
 ✔ Ensured SCD Type 1 Upsert** for efficient record updates  
 
 🔹 Parallel Execution Issues
-✔ Resolved data conflicts via deduplication strategies in `fact_sales`  
+
+✔ Resolved data conflicts via deduplication strategies in `fact_sales` 
+
 ✔ Maintained **consistent schema evolution** in Delta Tables  
 
