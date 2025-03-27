@@ -5,7 +5,7 @@
 🚀 Azure ETL Pipeline: Data Extraction, Transformation & Load
 
 📌 Project Overview
-This project builds an ETL pipeline using Azure Data Factory (ADF), Databricks, and PySpark** to extract data from SQL Server & GitHub, transform it via Medallion Architecture (Bronze → Silver → Gold), and handle incremental loads using SCD Type 1 (Upsert).  
+This project builds an ETL pipeline using Azure Data Factory (ADF), Databricks, and PySpark to extract data from SQL Server & GitHub, transform it via Medallion Architecture (Bronze → Silver → Gold), and handle incremental loads using SCD Type 1 (Upsert).  
 
 ---
 
