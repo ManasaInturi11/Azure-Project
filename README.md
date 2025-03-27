@@ -61,11 +61,11 @@ This project builds an ETL pipeline using Azure Data Factory (ADF), Databricks, 
 
 ✔ Implemented a watermark table to track `last_load_timestamp`  
 
-✔ Ensured SCD Type 1 Upsert** for efficient record updates  
+✔ Ensured SCD Type 1 Upsert for efficient record updates  
 
 🔹 Parallel Execution Issues
 
-✔ Resolved data conflicts via deduplication strategies in `fact_sales` 
+✔ Resolved data conflicts 
 
-✔ Maintained **consistent schema evolution** in Delta Tables  
+✔ Maintained consistent schema evolution in Delta Tables  
 
